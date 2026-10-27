@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    /* Fonte base 18 px (RNF02/RNF08): 112.5% de 16 px. */
+    html {
+        font-size: 112.5%;
+    }
+
+    body {
+        @apply bg-rose-50 text-gray-900;
+    }
+}
